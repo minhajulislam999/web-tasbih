@@ -1,16 +1,99 @@
-# React + Vite
+# 📿 Digital Tasbih
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful **Digital Tasbih Counter** built with **React**.
+This app helps users perform daily **Dhikr** and keep track of their counts in a simple and interactive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌙 Features
 
-## React Compiler
+* 📿 Multiple Dhikr options
+* 🔢 Automatic counting system
+* 🎯 Target-based Dhikr completion
+* 🟢 Circular progress indicator
+* ✨ Ripple tap animation
+* ⭐ Animated night sky background
+* 🌙 Ramadan themed design
+* ⌨️ Keyboard support (Press **Space** or **Enter** to count)
+* 🔄 Reset current Dhikr count
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🕌 Dhikr List
+| Dhikr | Arabic | Target |
+|------|------|------|
+| Subhanallah | سُبْحَانَ اللَّهِ | 33 |
+| Alhamdulillah | الْحَمْدُ لِلَّهِ | 33 |
+| Allahu Akbar | اللَّهُ أَكْبَرُ | 34 |
+| La ilaha illallah | لَا إِلَٰهَ إِلَّا اللَّهُ | 100 |
+| Dorud Sharif | اللهم صلِّ على سيدنا محمد وسلم عليه | 100 |
+| Astaghfirullah | أَسْتَغْفِرُ اللَّهَ | 100 |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 How It Works
+
+1. Select a **Dhikr** from the list.
+2. Tap the **Tasbih button** to increase the count.
+3. The **progress circle** shows how much is completed.
+4. When the target is reached, the app shows a **completion message**.
+5. You can **reset** the current count anytime.
+
+---
+
+## ⌨️ Keyboard Shortcut
+
+You can also count using the keyboard:
+
+* **Space** → Increase count
+* **Enter** → Increase count
+
+---
+
+## 🛠️ Built With
+
+* **React**
+* **JavaScript**
+* **CSS (Inline styles)**
+* **SVG for circular progress**
+
+---
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/minhajulislam999/web-tasbih.git
+```
+
+Go to project folder:
+
+```bash
+cd web-tasbih
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Purpose
+
+This project was created to help Muslims easily perform **daily Dhikr** using a simple digital tasbih with a beautiful interface.
+
+---
+
+## 🤲 Ramadan Mubarak
+
+May Allah accept our Dhikr and good deeds.
+**Ramadan Mubarak 🌙**
